@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="СтомотологияModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Врач">
+    <Key>
+      <PropertyRef Name="КодВрача" />
+    </Key>
+    <Property Name="КодВрача" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Фамилия" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Имя" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Отчество" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Специальность" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Категория" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Талон" Relationship="Self.FK_Талон_Врач" FromRole="Врач" ToRole="Талон" />
+    <Property Name="КодПользователя" Type="Int32" />
+    <NavigationProperty Name="Пользователь" Relationship="СтомотологияModel.FK_Врач_Пользователь" FromRole="Врач" ToRole="Пользователь" />
+  </EntityType>
+  <EntityType Name="Диагноз">
+    <Key>
+      <PropertyRef Name="КодДиагноза" />
+    </Key>
+    <Property Name="КодДиагноза" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Наименование" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Прием" Relationship="Self.FK_Прием_Диагноз" FromRole="Диагноз" ToRole="Прием" />
+  </EntityType>
+  <EntityType Name="Пациент">
+    <Key>
+      <PropertyRef Name="НомерМедКарты" />
+    </Key>
+    <Property Name="НомерМедКарты" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Фамилия" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Имя" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ДатаРождения" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Пол" Type="String" MaxLength="7" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Почта" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="МестоРегистрации" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Талон" Relationship="Self.FK_Талон_Пациент" FromRole="Пациент" ToRole="Талон" />
+    <Property Name="КодПользователя" Type="Int32" />
+    <NavigationProperty Name="Пользователь" Relationship="СтомотологияModel.FK_Пациент_Пользователь" FromRole="Пациент" ToRole="Пользователь" />
+  </EntityType>
+  <EntityType Name="Прием">
+    <Key>
+      <PropertyRef Name="КодПриема" />
+    </Key>
+    <Property Name="КодПриема" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Причина" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Стоимость" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="КодТалона" Type="Int32" Nullable="false" />
+    <Property Name="КодДиагноза" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Диагноз" Relationship="Self.FK_Прием_Диагноз" FromRole="Прием" ToRole="Диагноз" />
+    <NavigationProperty Name="Талон" Relationship="Self.FK_Прием_Талон" FromRole="Прием" ToRole="Талон" />
+  </EntityType>
+  <EntityType Name="Талон">
+    <Key>
+      <PropertyRef Name="КодТалона" />
+    </Key>
+    <Property Name="КодТалона" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Время" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="КодВрача" Type="Int32" Nullable="false" />
+    <Property Name="НомерМедКарты" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Врач" Relationship="Self.FK_Талон_Врач" FromRole="Талон" ToRole="Врач" />
+    <NavigationProperty Name="Пациент" Relationship="Self.FK_Талон_Пациент" FromRole="Талон" ToRole="Пациент" />
+    <NavigationProperty Name="Прием" Relationship="Self.FK_Прием_Талон" FromRole="Талон" ToRole="Прием" />
+  </EntityType>
+  <Association Name="FK_Талон_Врач">
+    <End Role="Врач" Type="Self.Врач" Multiplicity="1" />
+    <End Role="Талон" Type="Self.Талон" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Врач">
+        <PropertyRef Name="КодВрача" />
+      </Principal>
+      <Dependent Role="Талон">
+        <PropertyRef Name="КодВрача" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Прием_Диагноз">
+    <End Role="Диагноз" Type="Self.Диагноз" Multiplicity="1" />
+    <End Role="Прием" Type="Self.Прием" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Диагноз">
+        <PropertyRef Name="КодДиагноза" />
+      </Principal>
+      <Dependent Role="Прием">
+        <PropertyRef Name="КодДиагноза" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Талон_Пациент">
+    <End Role="Пациент" Type="Self.Пациент" Multiplicity="1" />
+    <End Role="Талон" Type="Self.Талон" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пациент">
+        <PropertyRef Name="НомерМедКарты" />
+      </Principal>
+      <Dependent Role="Талон">
+        <PropertyRef Name="НомерМедКарты" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Прием_Талон">
+    <End Role="Талон" Type="Self.Талон" Multiplicity="1" />
+    <End Role="Прием" Type="Self.Прием" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Талон">
+        <PropertyRef Name="КодТалона" />
+      </Principal>
+      <Dependent Role="Прием">
+        <PropertyRef Name="КодТалона" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="СтомотологияEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Врач" EntityType="Self.Врач" />
+    <EntitySet Name="Диагноз" EntityType="Self.Диагноз" />
+    <EntitySet Name="Пациент" EntityType="Self.Пациент" />
+    <EntitySet Name="Прием" EntityType="Self.Прием" />
+    <EntitySet Name="Талон" EntityType="Self.Талон" />
+    <AssociationSet Name="FK_Талон_Врач" Association="Self.FK_Талон_Врач">
+      <End Role="Врач" EntitySet="Врач" />
+      <End Role="Талон" EntitySet="Талон" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Прием_Диагноз" Association="Self.FK_Прием_Диагноз">
+      <End Role="Диагноз" EntitySet="Диагноз" />
+      <End Role="Прием" EntitySet="Прием" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Талон_Пациент" Association="Self.FK_Талон_Пациент">
+      <End Role="Пациент" EntitySet="Пациент" />
+      <End Role="Талон" EntitySet="Талон" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Прием_Талон" Association="Self.FK_Прием_Талон">
+      <End Role="Талон" EntitySet="Талон" />
+      <End Role="Прием" EntitySet="Прием" />
+    </AssociationSet>
+    <EntitySet Name="Пользователь" EntityType="СтомотологияModel.Пользователь" />
+    <AssociationSet Name="FK_Врач_Пользователь" Association="СтомотологияModel.FK_Врач_Пользователь">
+      <End Role="Пользователь" EntitySet="Пользователь" />
+      <End Role="Врач" EntitySet="Врач" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Пациент_Пользователь" Association="СтомотологияModel.FK_Пациент_Пользователь">
+      <End Role="Пользователь" EntitySet="Пользователь" />
+      <End Role="Пациент" EntitySet="Пациент" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Пользователь">
+    <Key>
+      <PropertyRef Name="КодПользователя" />
+    </Key>
+    <Property Name="КодПользователя" Type="Int32" Nullable="false" />
+    <Property Name="Логин" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Пароль" Type="String" Nullable="false" MaxLength="350" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Врач" Relationship="СтомотологияModel.FK_Врач_Пользователь" FromRole="Пользователь" ToRole="Врач" />
+    <NavigationProperty Name="Пациент" Relationship="СтомотологияModel.FK_Пациент_Пользователь" FromRole="Пользователь" ToRole="Пациент" />
+  </EntityType>
+  <Association Name="FK_Врач_Пользователь">
+    <End Type="СтомотологияModel.Пользователь" Role="Пользователь" Multiplicity="0..1" />
+    <End Type="СтомотологияModel.Врач" Role="Врач" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователь">
+        <PropertyRef Name="КодПользователя" />
+      </Principal>
+      <Dependent Role="Врач">
+        <PropertyRef Name="КодПользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Пациент_Пользователь">
+    <End Type="СтомотологияModel.Пользователь" Role="Пользователь" Multiplicity="0..1" />
+    <End Type="СтомотологияModel.Пациент" Role="Пациент" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователь">
+        <PropertyRef Name="КодПользователя" />
+      </Principal>
+      <Dependent Role="Пациент">
+        <PropertyRef Name="КодПользователя" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

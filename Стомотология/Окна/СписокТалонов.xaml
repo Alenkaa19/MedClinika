@@ -1,0 +1,111 @@
+﻿<Window Loaded="Page_Loaded"  x:Class="Стомотология.СписокТалонов"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Стомотология"
+      xmlns:command="clr-namespace:Стомотология.Commands"
+      xmlns:rule="clr-namespace:Стомотология.ValidationRules"
+      mc:Ignorable="d"
+      Title="" Width="650" Height="295" Icon="C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\Resources\hospital-4_icon-icons.com_66060.png" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\Resources\winter-background-for-invitations-cards-journals-planners-weddings_199112-302.jpg"/>
+    </Window.Background>
+    <StackPanel Margin="3,3,3,55"  RenderTransformOrigin="0.493,0.824">
+        <Menu>
+            <Menu.Background>
+                    <ImageBrush ImageSource="C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\Resources\winter-background-for-invitations-cards-journals-planners-weddings_199112-302.jpg"/>
+            </Menu.Background>
+            <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Действие" Foreground="SteelBlue">
+                <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Отменить" Command="Undo" ></MenuItem>
+                <Separator></Separator>
+                <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Создать" Command="New" ></MenuItem>
+                <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Редактировать" Command="{x:Static command:DataCommands.Edit}"></MenuItem>
+                <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Сохранить" Command="Save"></MenuItem>
+                <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Найти" Command="Find"/>
+                <Separator></Separator>
+                <MenuItem FontStyle="Italic" FontWeight="Bold"  Header="Удалить" Command="{x:Static command:DataCommands.Delete}" ></MenuItem>
+                <MenuItem FontStyle="Italic" FontWeight="Bold" Header="Обновить" Command="Refresh"/>
+            </MenuItem>
+
+        </Menu>
+
+        <DataGrid x:Name="DataGridBol" 
+            ItemsSource="{Binding}"
+            AutoGenerateColumns="False"
+            HorizontalAlignment="Left"
+            RowBackground="SteelBlue"
+            AlternatingRowBackground="#FFA1D2FA"     
+            BorderBrush="SteelBlue"      
+            BorderThickness="3"
+            FontWeight="Bold"
+            RowHeight="25"
+            IsReadOnly="False"
+            Cursor="Hand" Height="150" Background="#FFA1D2FA">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="НомерТалона"
+                    Binding="{Binding КодТалона, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="ДатаПриема" 
+                    Binding="{Binding Дата, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Время"
+                    Binding="{Binding Время, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Категория врача"
+                    Binding="{Binding КодВрача, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Номер полиса"
+                    Binding="{Binding НомерМедКарты, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Frame  x:Name="BorderFind" Margin="617,-160,9.4,-300" Visibility="Hidden" Height="130" >
+            <Frame.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#7FFF00" Offset="0"/>
+                    <GradientStop Color="#00FFFF" Offset="0.7"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+            <Frame.Content>
+                <Grid x:Name="gridFind" Margin="0,10,0,-10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.6"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0"/>
+                        <ColumnDefinition Width="23*"/>
+                        <ColumnDefinition Width="91*"/>
+                        <ColumnDefinition Width="70"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="2" Grid.Row="0" x:Name="TextBlockSearch" Text="Поиск" HorizontalAlignment="Left" FontWeight="Bold" Margin="79.8,0,0,1.6" RenderTransformOrigin="0.033,0.506" 
+                               Width="36" Grid.RowSpan="2"/>
+                    <TextBlock Grid.Column="1" Grid.Row="2" x:Name="TextBlockSurname" Text="Фамилия" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="5,0,0,10" Grid.ColumnSpan="2"/>
+                    <TextBlock Grid.Column="1" Grid.Row="3" x:Name="TextBlockGender" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,9.8"
+                               Grid.ColumnSpan="2" Height="31" Width="68"><Run Text="Специальность"/></TextBlock>
+                    <TextBox Grid.Column="2" Grid.Row="2" x:Name="TextBoxSurname" TextChanged="TextBoxSurname_TextChanged" Margin="30.6,14.8,10.6,0"/>
+                    <ComboBox x:Name="ComboBoxTitle"  DisplayMemberPath="Специальность" SelectionChanged="ComboBoxTitle_SelectionChanged" Margin="30.6,7,10.6,9.8" Grid.Row="3" Grid.Column="2"/>
+                    <Button Grid.Column="3" Grid.Row="2" x:Name="ButtonFindSurname" ToolTip="Поиск по фамилии" IsEnabled="False" Click="ButtonFindSurname_Click"  Margin="10.4,14.8,17,0">
+                       
+                    </Button>
+                    <Button x:Name="ButtonFindTitle" ToolTip="Поиск по специальности" IsEnabled="False" Click="ButtonFindTitle_Click"  Margin="10.4,7,17,9.8" Grid.Column="3" Grid.Row="3">
+                        
+                    </Button>
+                </Grid>
+            </Frame.Content>
+        </Frame>
+        <Button Content="Сменить пользователя" Margin="17,-190,-400,-300" Width="163" Height="40" Cursor="" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\Resources\winter-background-for-invitations-cards-journals-planners-weddings_199112-302.jpg" Stretch="None"/>
+            </Button.Background>
+        </Button>
+
+    </StackPanel>
+    <Window.CommandBindings>
+        <CommandBinding Command="Undo" Executed="UndoCommandBinding_Executed" CanExecute="UndoCommandBinding_CanExecute"/>
+        <CommandBinding Command="New" Executed="NewCommandBinding_Executed" CanExecute="NewCommandBinding_CanExecute"/>
+        <CommandBinding Command="Save" Executed="SaveCommandBinding_Executed" CanExecute="SaveCommandBinding_CanExecute"/>
+        <CommandBinding Command="Find" Executed="FindCommandBinding_Executed" CanExecute="FindCommandBinding_CanExecute"/>
+        <CommandBinding Command="{x:Static command:DataCommands.Delete}" Executed="DeleteCommandBinding_Executed" CanExecute="DeleteCommandBinding_CanExecute"/>
+        <CommandBinding Command="{x:Static command:DataCommands.Edit}" Executed="EditCommandBinding_Executed" CanExecute="EditCommandBinding_CanExecute"/>
+        <CommandBinding Command="Refresh" Executed="RefreshCommandBinding_Executed"/>
+    </Window.CommandBindings>
+</Window>
