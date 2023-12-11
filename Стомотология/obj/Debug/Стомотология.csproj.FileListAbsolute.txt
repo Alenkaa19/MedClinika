@@ -1,0 +1,176 @@
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\Стомотология.exe.config
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\Стомотология.exe
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\Стомотология.pdb
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.AssemblyReference.cache
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.SuggestedBindingRedirects.cache
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\MainWindow.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\App.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология_MarkupCompile.cache
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология_MarkupCompile.lref
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\App.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\MainWindow.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.g.resources
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.Properties.Resources.resources
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.GenerateResource.cache
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.CoreCompileInputs.cache
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.exe
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.pdb
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\PageMain.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\ДанныеОПриемах.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокВрачей.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокДиагнозов.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокПациентов.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокТалонов.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология_Content.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\EntityFramework.dll
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\EntityFramework.xml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\PageMain.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\ДанныеОПриемах.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокВрачей.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокДиагнозов.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокПациентов.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\СписокТалонов.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.CopyComplete
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\SignUp.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\SignUp.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Window1.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Window1.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\USER.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Window2.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\USER.baml
+C:\Users\murza\OneDrive\Рабочий стол\Стомотология\Стомотология\obj\Debug\Window2.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\Стомотология.exe.config
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\Стомотология.exe
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\Стомотология.pdb
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\EntityFramework.dll
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\EntityFramework.xml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\PageMain.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\SignUp.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\USER.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Window1.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Window2.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\ДанныеОПриемах.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокВрачей.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокДиагнозов.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокПациентов.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокТалонов.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\App.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология_Content.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология_MarkupCompile.cache
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология_MarkupCompile.lref
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\App.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\PageMain.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\SignUp.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\USER.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Window1.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Window2.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\ДанныеОПриемах.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокВрачей.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокДиагнозов.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокПациентов.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\СписокТалонов.baml
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.g.resources
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.csproj.CopyComplete
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.exe
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.pdb
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.Авторизация.resources
+C:\Users\Пользователь\Desktop\Стомотология\Стомотология\obj\Debug\Стомотология.Регистрация.resources
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\Стомотология.exe.config
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\Стомотология.exe
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\Стомотология.pdb
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.dll
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.xml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.AssemblyReference.cache
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.SuggestedBindingRedirects.cache
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\MainWindow.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\PageMain.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ДанныеОПриемах.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокВрачей.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокДиагнозов.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокПациентов.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокТалонов.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\App.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология_Content.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология_MarkupCompile.cache
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология_MarkupCompile.lref
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\App.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\MainWindow.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\PageMain.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ДанныеОПриемах.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокВрачей.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокДиагнозов.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокПациентов.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокТалонов.baml
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.g.resources
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.Авторизация.resources
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.Properties.Resources.resources
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.Регистрация.resources
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.GenerateResource.cache
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.CoreCompileInputs.cache
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.CopyComplete
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.exe
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.pdb
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ЗаписьНаПрием.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ЗаписьНаПрием.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.AssemblyReference.cache
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\MainWindow.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\PageMain.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ГлавнаяСтраничка.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ДанныеОПриемах.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ЗаписьНаПрием.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокВрачей.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокДиагнозов.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокПациентов.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокТалонов.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\App.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология_Content.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология_MarkupCompile.cache
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология_MarkupCompile.lref
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.exe
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.pdb
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\Стомотология.exe.config
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\Стомотология.exe
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\Стомотология.pdb
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.dll
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.xml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\App.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\MainWindow.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\PageMain.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ГлавнаяСтраничка.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ДанныеОПриемах.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ЗаписьНаПрием.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокВрачей.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокДиагнозов.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокПациентов.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\СписокТалонов.baml
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.g.resources
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.Авторизация.resources
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.Properties.Resources.resources
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.Регистрация.resources
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.GenerateResource.cache
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.CoreCompileInputs.cache
+C:\Users\roman\Рабочий стол\новый дизайн\Стомотология\obj\Debug\Стомотология.csproj.CopyComplete
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ТалонПользователя.g.cs
+C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\obj\Debug\ТалонПользователя.baml

@@ -1,0 +1,29 @@
+﻿<Window x:Class="Стомотология.PageMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Стомотология"
+      mc:Ignorable="d" d:DesignWidth="444"
+      Title="" Width="400" Height="550" Foreground="SteelBlue" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" Icon="C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\Resources\hospital-4_icon-icons.com_66060.png">
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="C:\Users\murza\OneDrive\Рабочий стол\новый дизайн\Стомотология\Resources\winter-background-for-invitations-cards-journals-planners-weddings_199112-302.jpg"/>
+        </StackPanel.Background>
+
+        <TextBlock Margin="5,70,0, 5" FontStyle="Italic" FontSize="30" Foreground="SteelBlue" FontWeight="Bold" LineHeight="6" TextAlignment="Center" >
+                    Медицинская клиника 
+            <TextBlock Margin="-280,50,55, 5" FontStyle="Italic" FontWeight="Bold" FontSize="30">
+             «Здоровье+»
+            </TextBlock>
+        </TextBlock>
+        <TextBlock FontStyle="Italic" FontWeight="Bold" FontSize="33" Width="111"><Hyperlink Click="Врач" Foreground="SteelBlue"><Run Text="Врач" Foreground="SteelBlue" /></Hyperlink></TextBlock>
+        <TextBlock FontStyle="Italic" FontWeight="Bold" FontSize="33" Width="175"><Hyperlink Click="Пациент"  Foreground="SteelBlue"><Run Text="Пациент" Foreground="SteelBlue"/></Hyperlink></TextBlock>
+        <TextBlock FontStyle="Italic" FontWeight="Bold" FontSize="33" Width="130"><Hyperlink Click="Талон"  Foreground="SteelBlue"><Run Text="Талон" Foreground="SteelBlue"/></Hyperlink></TextBlock>
+        <TextBlock FontStyle="Italic" FontWeight="Bold" FontSize="33" Width="142"><Hyperlink Click="Прием"  Foreground="SteelBlue"><Run Text="Прием" Foreground="SteelBlue"/></Hyperlink></TextBlock>
+        <TextBlock FontStyle="Italic" FontWeight="Bold" FontSize="33" Width="169"><Hyperlink Click="Диагноз"  Foreground="SteelBlue"><Run Text="Диагноз" Foreground="SteelBlue"/></Hyperlink></TextBlock>
+        <TextBlock FontWeight="Bold" Margin="45,15,0,1" FontSize="27" Width="447">
+                <Hyperlink Click="СменитьПользователя" Foreground="SteelBlue">Сменить пользователя</Hyperlink>
+        </TextBlock>
+    </StackPanel>
+</Window>

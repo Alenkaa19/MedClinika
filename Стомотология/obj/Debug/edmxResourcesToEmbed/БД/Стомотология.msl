@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ПоликлиникаModelContainer" CdmEntityContainer="ПоликлиникаEntities3">
+    <EntitySetMapping Name="Врач">
+      <EntityTypeMapping TypeName="СтомотологияModel.Врач">
+        <MappingFragment StoreEntitySet="Врач">
+          <ScalarProperty Name="Расписание" ColumnName="Расписание" />
+          <ScalarProperty Name="КодВрача" ColumnName="КодВрача" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="Специальность" ColumnName="Специальность" />
+          <ScalarProperty Name="Категория" ColumnName="Категория" />
+          <ScalarProperty Name="КодПользователя" ColumnName="КодПользователя" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Диагноз">
+      <EntityTypeMapping TypeName="СтомотологияModel.Диагноз">
+        <MappingFragment StoreEntitySet="Диагноз">
+          <ScalarProperty Name="КодДиагноза" ColumnName="КодДиагноза" />
+          <ScalarProperty Name="Наименование" ColumnName="Наименование" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Пациент">
+      <EntityTypeMapping TypeName="СтомотологияModel.Пациент">
+        <MappingFragment StoreEntitySet="Пациент">
+          <ScalarProperty Name="НомерМедКарты" ColumnName="НомерМедКарты" />
+          <ScalarProperty Name="Фамилия" ColumnName="Фамилия" />
+          <ScalarProperty Name="Имя" ColumnName="Имя" />
+          <ScalarProperty Name="Отчество" ColumnName="Отчество" />
+          <ScalarProperty Name="ДатаРождения" ColumnName="ДатаРождения" />
+          <ScalarProperty Name="Пол" ColumnName="Пол" />
+          <ScalarProperty Name="Почта" ColumnName="Почта" />
+          <ScalarProperty Name="МестоРегистрации" ColumnName="МестоРегистрации" />
+          <ScalarProperty Name="КодПользователя" ColumnName="КодПользователя" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Пользователь">
+      <EntityTypeMapping TypeName="СтомотологияModel.Пользователь">
+        <MappingFragment StoreEntitySet="Пользователь">
+          <ScalarProperty Name="КодПользователя" ColumnName="КодПользователя" />
+          <ScalarProperty Name="Логин" ColumnName="Логин" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Прием">
+      <EntityTypeMapping TypeName="СтомотологияModel.Прием">
+        <MappingFragment StoreEntitySet="Прием">
+          <ScalarProperty Name="КодПриема" ColumnName="КодПриема" />
+          <ScalarProperty Name="ДатаПриема" ColumnName="ДатаПриема" />
+          <ScalarProperty Name="Прием1" ColumnName="Прием" />
+          <ScalarProperty Name="Стоимость" ColumnName="Стоимость" />
+          <ScalarProperty Name="КодТалона" ColumnName="КодТалона" />
+          <ScalarProperty Name="КодДиагноза" ColumnName="КодДиагноза" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Талон">
+      <EntityTypeMapping TypeName="СтомотологияModel.Талон">
+        <MappingFragment StoreEntitySet="Талон">
+          <ScalarProperty Name="ТекстСообщения" ColumnName="ТекстСообщения" />
+          <ScalarProperty Name="Телефон" ColumnName="Телефон" />
+          <ScalarProperty Name="ФИО" ColumnName="ФИО" />
+          <ScalarProperty Name="КодТалона" ColumnName="КодТалона" />
+          <ScalarProperty Name="Дата" ColumnName="Дата" />
+          <ScalarProperty Name="Время" ColumnName="Время" />
+          <ScalarProperty Name="КодВрача" ColumnName="КодВрача" />
+          <ScalarProperty Name="НомерМедКарты" ColumnName="НомерМедКарты" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Услуги">
+      <EntityTypeMapping TypeName="СтомотологияModel.Услуги">
+        <MappingFragment StoreEntitySet="Услуги">
+          <ScalarProperty Name="КодУслуги" ColumnName="КодУслуги" />
+          <ScalarProperty Name="Услуга" ColumnName="Услуга" />
+          <ScalarProperty Name="КодПриема" ColumnName="КодПриема" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9b164487fc394f32807fea7e304c99fc" Name="Diagram1">
+        <EntityTypeShape EntityType="СтомотологияModel.Врач" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтомотологияModel.Диагноз" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтомотологияModel.Пациент" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтомотологияModel.Пользователь" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтомотологияModel.Прием" Width="1.5" PointX="7.625" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтомотологияModel.Талон" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтомотологияModel.Услуги" Width="1.5" PointX="9.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="СтомотологияModel.FK_Врач_Пользователь1" ManuallyRouted="false" />
+        <AssociationConnector Association="СтомотологияModel.FK_Талон_Врач" ManuallyRouted="false" />
+        <AssociationConnector Association="СтомотологияModel.FK_Прием_Диагноз" ManuallyRouted="false" />
+        <AssociationConnector Association="СтомотологияModel.FK_Пациент_Пользователь1" ManuallyRouted="false" />
+        <AssociationConnector Association="СтомотологияModel.FK_Талон_Пациент" ManuallyRouted="false" />
+        <AssociationConnector Association="СтомотологияModel.FK_Прием_Талон" ManuallyRouted="false" />
+        <AssociationConnector Association="СтомотологияModel.FK_Услуги_Прием" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
